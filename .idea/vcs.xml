@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Dogs-App" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DogsApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Pokedex" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/abastece-ai-android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/old_abastece_ai_android" vcs="Git" />
+  </component>
+</project>
