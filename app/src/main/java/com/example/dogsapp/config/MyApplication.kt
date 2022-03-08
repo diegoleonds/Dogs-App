@@ -1,6 +1,8 @@
 package com.example.dogsapp.config
 
 import android.app.Application
+import com.example.dogsapp.data.di.dataModule
+import com.example.dogsapp.ui.di.uiModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
@@ -13,7 +15,7 @@ class MyApplication: Application() {
         super.onCreate()
         startKoin {
             androidContext(this@MyApplication)
-//            modules(dataModule, domainModule, uiModule)
+            modules(dataModule, uiModule)
         }
     }
 }
